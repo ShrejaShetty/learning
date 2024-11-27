@@ -78,7 +78,7 @@ li {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 18px;
-  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  transition: background-color 0.3s ease;
 }
 
 /* Color for 'Pending' status */
@@ -136,7 +136,6 @@ button.save:hover {
   background-color: #388e3c;
 }
 
-/* Make sure everything is centered */
 h1 {
   margin-bottom: 20px;
   font-size: 24px;

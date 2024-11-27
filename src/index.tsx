@@ -9,7 +9,7 @@ if (!container) {
   throw new Error("Root container is missing in the HTML.");
 }
 
-const root = ReactDOM.createRoot(container); // Use createRoot for React 18+
+const root = ReactDOM.createRoot(container);
 root.render(
   <Provider store={store}>
     <App />

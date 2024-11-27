@@ -12,7 +12,7 @@ const TodoForm: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     dispatch(addTodo({ text, status }));
-    setText(''); // Clear input
+    setText('');
   };
 
   return (
